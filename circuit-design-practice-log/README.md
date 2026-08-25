@@ -9,3 +9,9 @@
 - `last/LASTT.DSN` — 전국대회(2019.10.11) 직전 마지막 연습본입니다.
 
 원본 파일은 OrCAD Capture/Allegro 포맷으로, 뷰어 없이는 미리보기가 되지 않습니다. `재출`/`제출` 폴더의 PNG 이미지로 PCB 배치/배선 결과를 확인할 수 있습니다.
+
+## board-render.png
+
+Gerber 데이터(`allegro/*.art`, RS-274X)가 남아있는 세션 중 실제 PCB 사진이 없는 곳은, Gerber 파일을 직접 렌더링해 `board-render.png`로 추가했습니다 (PyGerber 사용, 배선 레이어를 그대로 시각화). 회로도/배치 자체를 확인할 수 있는 가장 확실한 방법입니다.
+
+렌더 이미지가 있는 세션: `3. capture3`, `7. capture4`, `10. capture6`, `12. capture8`, `24`, `25`, `34`, `last`(최종본)
