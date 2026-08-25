@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: C:\Users\gongup\Desktop\'\File\gongup\기능반\◎여러 프로그램들◎\알티움 파일\※2019년※\lead smoke remover\lead smoke remover.PcbDoc
+RuleKind=Width|RuleName=Width_POWER|Scope=Board|Minimum=19.69
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=11.81
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00

@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: lead smoke remover.PcbDoc   2019-07-05  ¿ÀÈÄ 6:56:32
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : lead smoke remover.TXT
+EIA File   : lead smoke remover.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      28mil (0.711mm)                                           Round             6         PTH        3.85inch (97.72mm)
+T2      35mil (0.889mm)                                           Round             102       PTH        41.42inch (1052.03mm)
+T3      39mil (0.991mm)                                           Round             197       PTH        40.43inch (1026.95mm)
+T4      47mil (1.194mm)                                           Round             2         PTH        0.20inch (5.08mm)
+T5      118mil (2.997mm)                                          Round             4         NPTH       15.35inch (390.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              311
+
+Total Processing Time (hh:mm:ss) : 00:00:00

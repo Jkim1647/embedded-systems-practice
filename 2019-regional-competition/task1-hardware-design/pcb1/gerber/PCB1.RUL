@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: C:\Users\Production\Desktop\지방대회 문제 제작\1과제\CAD\PCB1.PcbDoc
+RuleKind=Width|RuleName=Width_1|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=11.81
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=11.81
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
