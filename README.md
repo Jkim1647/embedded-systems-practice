@@ -9,11 +9,7 @@
 
 > **공식 입상 확인**: 한국산업인력공단이 운영하는 마이스터넷(Meister Net) [입상자 조회](https://meister.hrdkorea.or.kr/sub/3/6/7/skillMatchTournament/prizeWinnerList.do)에서 직종 "공업전자기기", 소속시도 "서울", 성명 "김진영"으로 검색하면 아래 결과를 직접 확인할 수 있습니다.
 >
-> | 직종 | 대회구분 | 등위 | 성명 | 소속 | 시도 |
-> |---|---|---|---|---|---|
-> | 공업전자기기 | 2018년서울지방 | 우수상 | 김진영 | 서울로봇고등학교 | 서울 |
-> | 공업전자기기 | 2019년서울지방 | 금 | 김진영 | 서울로봇고등학교 | 서울 |
-> | 공업전자기기 | 2019년전국 | 장려상 | 김진영 | 서울로봇고등학교 | 서울 |
+> ![마이스터넷 입상자 조회 결과](./verification-meister-net.png)
 
 ## 배경: 공업전자기기 종목이란
 
@@ -85,11 +81,7 @@ Embedded C code and circuit/PCB design work from my time on the Industrial Elect
 
 > **Official verification**: these results are independently searchable on [Meister Net](https://meister.hrdkorea.or.kr/sub/3/6/7/skillMatchTournament/prizeWinnerList.do), the official competition-records lookup run by HRD Korea (a public agency under Korea's Ministry of Employment and Labor). Search Trade "공업전자기기 (Industrial Electronics)", Region "서울 (Seoul)", Name "김진영 (Jinyoung Kim)" to see:
 >
-> | Trade | Competition | Award | Name | School | Region |
-> |---|---|---|---|---|---|
-> | Industrial Electronics | 2018 Seoul Regional | Excellence Award | Jinyoung Kim | Seoul Robot High School | Seoul |
-> | Industrial Electronics | 2019 Seoul Regional | Gold | Jinyoung Kim | Seoul Robot High School | Seoul |
-> | Industrial Electronics | 2019 National | Merit Award | Jinyoung Kim | Seoul Robot High School | Seoul |
+> ![Meister Net prize-winner search result](./verification-meister-net.png)
 
 ## Background: the Industrial Electronics trade
 
