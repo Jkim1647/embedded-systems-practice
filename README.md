@@ -18,7 +18,7 @@
 경기는 보통 5개 내외의 세부 과제로 구성되고, 과제마다 성격이 다릅니다.
 
 - **1과제(하드웨어설계/회로설계)** — 주어진 요구사항으로 로직 회로를 직접 설계·시뮬레이션하고, 그 회로를 바탕으로 인쇄회로기판(PCB) 레이아웃을 대회장에서 **직접, 처음부터** CAD로 설계해 Gerber/NC Drill 파일로 제출하는 과제입니다. (시간 내에 설계를 끝내지 못한 선수를 위한 백업용 완제 기판이 지급되기도 하지만, 정상적으로는 선수 본인이 설계합니다.)
-- **2과제 이후(조립, 고장수리 및 측정, 프로그램 작성, 디스플레이 시스템 조립 등)** — 대부분 대회 운영측이 미리 제작한 기판(예: 회로에 고의로 결함을 심어둔 보드)을 지급받아 조립·수리·프로그래밍하는 과제입니다. 이 저장소에는 **1과제(PCB 설계)만** 포함했습니다 — 나머지 과제의 기판 설계 파일은 선수 개인이 만든 결과물이 아니라 대회 운영 자료이기 때문입니다.
+- **2과제 이후(조립, 고장수리 및 측정, 프로그램 작성, 디스플레이 시스템 조립 등)** — 대부분 대회 운영측이 미리 제작한 기판(예: 회로에 고의로 결함을 심어둔 보드)을 지급받아 조립·수리·프로그래밍하는 과제입니다. **설계 파일(Gerber 등)이 실제로 제 것으로 남아있는 건 1과제뿐**이라 그것만 저장소에 파일로 올렸습니다 — 나머지 과제는 보드 자체가 대회 운영 자료이지만, 실제로 수행한 작업(조립·고장수리·프로그래밍 등) 내용은 각 대회 폴더 README에 상세히 문서로 정리했습니다.
 
 ## 대회별 과제 구성과 결과물 매칭
 
@@ -28,35 +28,38 @@
 
 | 과제 | 과제명 | 내용 | 이 저장소의 결과물 |
 |---|---|---|---|
-| 1과제 | 인쇄회로기판 설계 및 기구물설계 | 회로도를 보고 PCB 배치·배선 + 기구물(패널) CAD 설계를 대회장에서 직접 진행 | 직접 설계한 과제이나 원본 파일이 남아있지 않아 미포함 |
-| 2과제 | 하드웨어 설계 (신호등) | 만능기판에 신호등 동작 회로를 직접 납땜·배선 | PCB가 없는 조립 과제 — 해당 없음 |
-| 3과제 | 고장수리 및 측정 (IC체커기) | 지급된 완제 기판(Bare PCB 지급)에서 고의로 심어둔 결함을 찾아 수리 | 대회 운영측이 제작한 기판 — 미포함 |
-| 4과제 | 프로그램설계 (냉장고 시스템) | 지급된 Atmega128 완제 모듈+PCB에 C/ASM으로 냉장고 제어 프로그램 작성, 블루투스 앱 연동 | 대회 운영측이 제작한 기판이고, 남은 소스는 배포용 예제뿐이라 미포함 |
-| 5과제 | 어셈블리 | Main PCB + Front PCB를 볼트/너트/케이블로 최종 결합 조립 | 기구 조립 과제(설계 파일 없음) — 해당 없음 |
+| 1과제 | 인쇄회로기판 설계 및 기구물설계 | 회로도를 보고 PCB 배치·배선 + 기구물(패널) CAD 설계를 대회장에서 직접 진행 | 📄 [문서화](./2018-regional-competition) (설계 파일은 남아있지 않음) |
+| 2과제 | 하드웨어 설계 (신호등) | 만능기판에 신호등 동작 회로를 직접 납땜·배선 | 📄 [문서화](./2018-regional-competition) (PCB 없는 조립 과제) |
+| 3과제 | 고장수리 및 측정 (IC체커기) | 지급된 완제 기판(Bare PCB 지급)에서 고의로 심어둔 결함을 찾아 수리 | 📄 [문서화](./2018-regional-competition) (기판은 운영측 제작) |
+| 4과제 | 프로그램설계 (냉장고 시스템) | 지급된 Atmega128 완제 모듈+PCB에 C/ASM으로 냉장고 제어 프로그램 작성, 블루투스 앱 연동 | 📄 [문서화](./2018-regional-competition) (남은 소스는 배포용 예제뿐) |
+| 5과제 | 어셈블리 | Main PCB + Front PCB를 볼트/너트/케이블로 최종 결합 조립 | 📄 [문서화](./2018-regional-competition) (설계 파일 없는 기구 조립) |
 
 ### 2019년도 서울시 지방기능경기대회 (4과제, 금상)
 
 | 과제 | 과제명 | 내용 | 이 저장소의 결과물 |
 |---|---|---|---|
-| 1과제 | 하드웨어설계 | 로직회로(Design A/B) 설계·시뮬레이션 + 시간 반복 카운터 PCB를 직접 배치·배선 | ✅ [`2019-regional-competition/task1-hardware-design`](./2019-regional-competition/task1-hardware-design) |
-| 2과제 | 고장수리 및 측정 | 조도 경보기 PCB의 5개 고장점을 찾아 수리, 오실로스코프로 측정·제출 | 대회 운영측이 제작한 기판 — 미포함 |
-| 3과제 | 프로그램설계 (계산기) | 주어진 예제 프로그램을 참조·수정해 사칙연산 계산기 완성 | 지급된 예제 코드만 남아있고 직접 수정한 최종본은 없어 미포함 |
-| 4과제 | 어셈블러 | Main+Display+Front PCB 결합, 만능기판 가공·조립 | 기구 조립 과제 — 해당 없음 |
+| 1과제 | 하드웨어설계 | 로직회로(Design A/B) 설계·시뮬레이션 + 시간 반복 카운터 PCB를 직접 배치·배선 | ✅ [`task1-hardware-design`](./2019-regional-competition/task1-hardware-design) (Gerber+렌더) |
+| 2과제 | 고장수리 및 측정 | 조도 경보기 PCB의 5개 고장점을 찾아 수리, 오실로스코프로 측정·제출 | 📄 [문서화](./2019-regional-competition) (기판은 운영측 제작) |
+| 3과제 | 프로그램설계 (계산기) | 주어진 예제 프로그램을 참조·수정해 사칙연산 계산기 완성 | 📄 [문서화](./2019-regional-competition) (남은 소스는 예제뿐) |
+| 4과제 | 어셈블러 | Main+Display+Front PCB 결합, 만능기판 가공·조립 | 📄 [문서화](./2019-regional-competition) (설계 파일 없는 조립) |
 
 ### 제54회 전국기능경기대회 (4과제, 장려상)
 
 | 과제 | 과제명 | 내용 | 이 저장소의 결과물 |
 |---|---|---|---|
-| 1과제 | 하드웨어 설계 (납 연기 제거기) | 로직회로(Design A/B/C) 설계 + PCB 배치·배선(CAD, 2시간30분) + 조립 | ✅ [`2019-national-competition/task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) |
-| 2과제 | 고장수리 및 측정 | 3bit Digital Phase Shifter PCB의 고장점을 수리, 오실로스코프로 측정 | 대회 운영측이 제작한 기판 — 미포함 |
-| 3과제 | Embedded system Programming | 2대 엘리베이터 제어 시스템 C 코드 작성 (UART, 센서, LCD/OLED 표시) | ✅ [`elevator-control-system`](./elevator-control-system) |
-| 4과제 | 어셈블리 (음료수 자판기) | Main+Display+Front PCB+판넬 결합 조립 | 기구 조립 과제 — 해당 없음 |
+| 1과제 | 하드웨어 설계 (납 연기 제거기) | 로직회로(Design A/B/C) 설계 + PCB 배치·배선(CAD, 2시간30분) + 조립 | ✅ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+렌더) |
+| 2과제 | 고장수리 및 측정 | 3bit Digital Phase Shifter PCB의 고장점을 수리, 오실로스코프로 측정 | 📄 [문서화](./2019-national-competition) (기판은 운영측 제작) |
+| 3과제 | Embedded system Programming | 2대 엘리베이터 제어 시스템 C 코드 작성 (UART, 센서, LCD/OLED 표시) | ✅ [`elevator-control-system`](./elevator-control-system) (소스 코드) |
+| 4과제 | 어셈블리 (음료수 자판기) | Main+Display+Front PCB+판넬 결합 조립 | 📄 [문서화](./2019-national-competition) (설계 파일 없는 조립) |
+
+✅ = 이 저장소에 실제 설계/코드 파일이 있음, 📄 = 파일은 없지만 요구사항·구성·직접 수행한 작업을 README에 상세히 정리함 (원본 문제/정답/채점기준표 등 저작권 있는 공식 문서는 포함하지 않음).
 
 ## 프로젝트 구성
 
-**PCB 설계 (대회 1과제 결과물)**
-- [`2019-regional-competition`](./2019-regional-competition) — 2019년 서울시 지방기능경기대회 1과제 PCB 설계 (금상)
-- [`2019-national-competition`](./2019-national-competition) — 제54회 전국기능경기대회 1과제 PCB 설계 "납 연기 제거기" (장려상)
+**대회별 폴더 (1과제 PCB 설계 파일 + 전체 과제 문서화)**
+- [`2018-regional-competition`](./2018-regional-competition) — 2018년 서울시 지방기능경기대회, 5과제 전체 문서화 (우수상, 설계 파일 없음)
+- [`2019-regional-competition`](./2019-regional-competition) — 2019년 서울시 지방기능경기대회, 1과제 PCB 설계 + 4과제 전체 문서화 (금상)
+- [`2019-national-competition`](./2019-national-competition) — 제54회 전국기능경기대회, 1과제 PCB 설계 "납 연기 제거기" + 4과제 전체 문서화 (장려상)
 
 **임베디드 C 코드**
 - [`elevator-control-system`](./elevator-control-system) — ATmega128 기반 2대 엘리베이터 제어 시뮬레이션. UART 통신, 층 이동 로직, 센서/부저/LED 표시 구현
@@ -90,7 +93,7 @@ Industrial Electronics is one of the trade categories in Korea's National Skills
 Each competition is broken into roughly five tasks, and they aren't all the same kind of work:
 
 - **Task 1 (Hardware/Circuit Design)** — design a logic circuit from the given requirements, simulate it, then lay out the PCB for the main circuit **from scratch, live at the venue**, in CAD software, and submit Gerber/NC Drill files. (A backup pre-fabricated board is provided as a fallback for anyone who doesn't finish the layout in time, but the normal path is designing it yourself.)
-- **Tasks 2 onward (assembly, fault-finding & measurement, programming, display system assembly, etc.)** — mostly involve working with a board the organizers already fabricated (e.g., one with faults deliberately built in) — assembling, repairing, or programming it. This repo includes **only Task 1 (PCB design)**; the board files for the other tasks aren't something I personally designed — they're competition infrastructure, not my own output.
+- **Tasks 2 onward (assembly, fault-finding & measurement, programming, display system assembly, etc.)** — mostly involve working with a board the organizers already fabricated (e.g., one with faults deliberately built in) — assembling, repairing, or programming it. **Only Task 1 design files (Gerber, etc.) survive as mine**, so that's the only one with files in the repo — the other tasks used organizer-provided boards, but what I actually did on each (assembly, repair, programming, etc.) is written up in detail in each competition folder's README.
 
 ## Task breakdown per competition, matched to what's here
 
@@ -100,35 +103,38 @@ None of the three competitions' official problem/answer/rubric documents are inc
 
 | Task | Name | What it involved | In this repo |
 |---|---|---|---|
-| 1 | PCB Layout & Mechanical Design | Lay out/route a PCB from a schematic + design an enclosure panel in CAD, live at the venue | Self-designed, but the original files weren't preserved — not included |
-| 2 | Hardware Design (traffic light) | Hand-wire a traffic-light-behavior circuit on prototype board | No PCB in this task — n/a |
-| 3 | Fault-Finding & Measurement ("IC checker") | Diagnose and repair deliberately-planted faults on a pre-fabricated board | Organizer-fabricated board — not included |
-| 4 | Program Design (refrigerator system) | Write C/ASM for a refrigerator controller on a supplied ATmega128 module + PCB, with Bluetooth app integration | Organizer-fabricated board; only the distributed example source survives — not included |
-| 5 | Assembly | Bolt/cable-connect the Main and Front PCBs into a finished unit | Mechanical assembly, no design files — n/a |
+| 1 | PCB Layout & Mechanical Design | Lay out/route a PCB from a schematic + design an enclosure panel in CAD, live at the venue | 📄 [documented](./2018-regional-competition) (files weren't preserved) |
+| 2 | Hardware Design (traffic light) | Hand-wire a traffic-light-behavior circuit on prototype board | 📄 [documented](./2018-regional-competition) (no PCB in this task) |
+| 3 | Fault-Finding & Measurement ("IC checker") | Diagnose and repair deliberately-planted faults on a pre-fabricated board | 📄 [documented](./2018-regional-competition) (organizer-fabricated board) |
+| 4 | Program Design (refrigerator system) | Write C/ASM for a refrigerator controller on a supplied ATmega128 module + PCB, with Bluetooth app integration | 📄 [documented](./2018-regional-competition) (only the distributed example source survives) |
+| 5 | Assembly | Bolt/cable-connect the Main and Front PCBs into a finished unit | 📄 [documented](./2018-regional-competition) (mechanical assembly, no design files) |
 
 ### 2019 Seoul Regional Competition (4 tasks, Gold Award)
 
 | Task | Name | What it involved | In this repo |
 |---|---|---|---|
-| 1 | Hardware Design | Design/simulate logic circuits (Design A/B), lay out a repeating-counter PCB myself | ✅ [`2019-regional-competition/task1-hardware-design`](./2019-regional-competition/task1-hardware-design) |
-| 2 | Fault-Finding & Measurement | Find and repair 5 faults on a light-alarm PCB, measure and submit via oscilloscope | Organizer-fabricated board — not included |
-| 3 | Program Design (calculator) | Reference/modify a given example program into a working 4-function calculator | Only the given example code survives, not a self-modified final version — not included |
-| 4 | Assembler (Assembly) | Combine Main+Display+Front PCBs, machine and assemble prototype board | Mechanical assembly — n/a |
+| 1 | Hardware Design | Design/simulate logic circuits (Design A/B), lay out a repeating-counter PCB myself | ✅ [`task1-hardware-design`](./2019-regional-competition/task1-hardware-design) (Gerber+renders) |
+| 2 | Fault-Finding & Measurement | Find and repair 5 faults on a light-alarm PCB, measure and submit via oscilloscope | 📄 [documented](./2019-regional-competition) (organizer-fabricated board) |
+| 3 | Program Design (calculator) | Reference/modify a given example program into a working 4-function calculator | 📄 [documented](./2019-regional-competition) (only the given example survives) |
+| 4 | Assembler (Assembly) | Combine Main+Display+Front PCBs, machine and assemble prototype board | 📄 [documented](./2019-regional-competition) (mechanical assembly) |
 
 ### 54th National Competition (4 tasks, Merit Award)
 
 | Task | Name | What it involved | In this repo |
 |---|---|---|---|
-| 1 | Hardware Design ("lead smoke remover") | Design/simulate logic circuits (Design A/B/C) + lay out the PCB myself in CAD (2.5h) + assemble | ✅ [`2019-national-competition/task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) |
-| 2 | Fault-Finding & Measurement | Repair faults on a "3-bit Digital Phase Shifter" PCB, measure with an oscilloscope | Organizer-fabricated board — not included |
-| 3 | Embedded System Programming | Write the C control program for a dual-elevator system (UART, sensors, LCD/OLED) | ✅ [`elevator-control-system`](./elevator-control-system) |
-| 4 | Assembly (vending machine) | Combine Main+Display+Front PCBs and a panel into a finished unit | Mechanical assembly — n/a |
+| 1 | Hardware Design ("lead smoke remover") | Design/simulate logic circuits (Design A/B/C) + lay out the PCB myself in CAD (2.5h) + assemble | ✅ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+renders) |
+| 2 | Fault-Finding & Measurement | Repair faults on a "3-bit Digital Phase Shifter" PCB, measure with an oscilloscope | 📄 [documented](./2019-national-competition) (organizer-fabricated board) |
+| 3 | Embedded System Programming | Write the C control program for a dual-elevator system (UART, sensors, LCD/OLED) | ✅ [`elevator-control-system`](./elevator-control-system) (source code) |
+| 4 | Assembly (vending machine) | Combine Main+Display+Front PCBs and a panel into a finished unit | 📄 [documented](./2019-national-competition) (mechanical assembly) |
+
+✅ = actual design/code files are in this repo, 📄 = no files, but requirements/scope/what I actually did are written up in the README (copyrighted originals — problem sheets, answer keys, rubrics — are never included).
 
 ## What's here
 
-**PCB design (Task 1 submissions)**
-- [`2019-regional-competition`](./2019-regional-competition) — 2019 Seoul Regional Competition, Task 1 PCB design (Gold Award)
-- [`2019-national-competition`](./2019-national-competition) — 54th National Competition, Task 1 PCB design, "lead smoke remover" (Merit Award)
+**Per-competition folders (Task 1 PCB files + full task documentation)**
+- [`2018-regional-competition`](./2018-regional-competition) — 2018 Seoul Regional Competition, all 5 tasks documented (Excellence Award, no design files survive)
+- [`2019-regional-competition`](./2019-regional-competition) — 2019 Seoul Regional Competition, Task 1 PCB design + all 4 tasks documented (Gold Award)
+- [`2019-national-competition`](./2019-national-competition) — 54th National Competition, Task 1 PCB design "lead smoke remover" + all 4 tasks documented (Merit Award)
 
 **Embedded C**
 - [`elevator-control-system`](./elevator-control-system) — Dual-elevator control simulation on ATmega128: UART comms, floor-movement logic, sensor/buzzer/LED indicators
