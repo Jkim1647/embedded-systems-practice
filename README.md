@@ -7,6 +7,14 @@
 - 2019년 서울시 지방기능경기대회 — 금상
 - 2019년 전국기능경기대회(제54회) — 장려상
 
+> **공식 입상 확인**: 한국산업인력공단이 운영하는 마이스터넷(Meister Net) [입상자 조회](https://meister.hrdkorea.or.kr/sub/3/6/7/skillMatchTournament/prizeWinnerList.do)에서 직종 "공업전자기기", 소속시도 "서울", 성명 "김진영"으로 검색하면 아래 결과를 직접 확인할 수 있습니다.
+>
+> | 직종 | 대회구분 | 등위 | 성명 | 소속 | 시도 |
+> |---|---|---|---|---|---|
+> | 공업전자기기 | 2018년서울지방 | 우수상 | 김진영 | 서울로봇고등학교 | 서울 |
+> | 공업전자기기 | 2019년서울지방 | 금 | 김진영 | 서울로봇고등학교 | 서울 |
+> | 공업전자기기 | 2019년전국 | 장려상 | 김진영 | 서울로봇고등학교 | 서울 |
+
 ## 배경: 공업전자기기 종목이란
 
 공업전자기기(Industrial Electronics)는 전국기능경기대회 직종 중 하나로, 산업 현장에서 쓰이는 전자 계측/제어 장비에 대한 이론과 회로 설계·PCB 설계·조립·고장수리 및 측정·임베디드 프로그래밍 능력을 겨루는 종목입니다. 매년 다른 문제가 출제되며, 지방대회에서 입상해야 전국대회에 진출할 수 있습니다.
@@ -74,6 +82,14 @@ Embedded C code and circuit/PCB design work from my time on the Industrial Elect
 - 2018 Seoul Regional Skills Competition — Excellence Award
 - 2019 Seoul Regional Skills Competition — Gold Award
 - 2019 National Skills Competition (54th) — Merit Award
+
+> **Official verification**: these results are independently searchable on [Meister Net](https://meister.hrdkorea.or.kr/sub/3/6/7/skillMatchTournament/prizeWinnerList.do), the official competition-records lookup run by HRD Korea (a public agency under Korea's Ministry of Employment and Labor). Search Trade "공업전자기기 (Industrial Electronics)", Region "서울 (Seoul)", Name "김진영 (Jinyoung Kim)" to see:
+>
+> | Trade | Competition | Award | Name | School | Region |
+> |---|---|---|---|---|---|
+> | Industrial Electronics | 2018 Seoul Regional | Excellence Award | Jinyoung Kim | Seoul Robot High School | Seoul |
+> | Industrial Electronics | 2019 Seoul Regional | Gold | Jinyoung Kim | Seoul Robot High School | Seoul |
+> | Industrial Electronics | 2019 National | Merit Award | Jinyoung Kim | Seoul Robot High School | Seoul |
 
 ## Background: the Industrial Electronics trade
 
