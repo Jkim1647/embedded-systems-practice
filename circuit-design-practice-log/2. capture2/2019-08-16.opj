@@ -1,0 +1,221 @@
+(ExpressProject "2019-08-16"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\library\capture\library2.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\2019-08-16.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File "C:\USERS\USER\DESKTOP\CAPTURE2\2019-08-16.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "allegro\2019-08-16-s.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    ("Allegro Netlist Input Board File"
+       "C:\Users\user\Desktop\capture2\allegro\2019-08-16-s.brd")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\USERS\USER\DESKTOP\CAPTURE2\2019-08-16.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Value}\t{Quantity}\t{Reference}\t{PCB Footprint}\t{Description}")
+    (BOM_Include_File "C:\USERS\USER\DESKTOP\CAPTURE2\2019-08-16.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (BOM_Header "{Item}\t{Quantity}\t{Reference}\t{Part}\t{PCB Footprint}"))
+  (Folder "Outputs"
+    (File ".\2019-08-16.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\2019-08-16.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (VR2
+      (FullPartName "VR2.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (+5V
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    ("Cap NP"
+      (FullPartName "Cap NP.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (SWLED1
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (VR-LED
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (MOTOR-GND
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (resistor
+      (FullPartName "resistor.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (2SC1815
+      (FullPartName "2SC1815.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (MOTOR-GND2
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (CLK
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (SWLED2
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (ADC1
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (CON14
+      (FullPartName "CON14.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (4175
+      (FullPartName "4175.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (4051
+      (FullPartName "4051.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (4017
+      (FullPartName "4017.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (4001
+      (FullPartName "4001.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "3"))
+    ("Cap TEXT"
+      (FullPartName "Cap TEXT.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (ADC0
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    ("Cap POL"
+      (FullPartName "Cap POL.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (VR1
+      (FullPartName "VR1.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (4071
+      (FullPartName "4071.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "2")))
+  (LastUsedLibraryBrowseDirectory "C:\Users\user\Desktop\LIBRARY\CAPTURE")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Users\user\Desktop\capture2\2019-08-16.dsn")
+      (Path "Design Resources" "C:\Users\user\Desktop\capture2\2019-08-16.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "C:\Users\user\Desktop\capture2\2019-08-16.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 391"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1448 52 482")
+        (Scroll "1105 1037")
+        (Zoom "204")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE2\2019-08-16.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1474 78 508")
+        (Scroll "104 376")
+        (Zoom "102")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE2\2019-08-16.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "user"))

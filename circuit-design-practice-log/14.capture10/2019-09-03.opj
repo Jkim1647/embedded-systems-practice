@@ -1,0 +1,94 @@
+(ExpressProject "2019-09-03"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\2019-09-03.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (LM339
+      (FullPartName "LM339.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "1"))
+    (4069
+      (FullPartName "4069.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    ("Cap NP"
+      (FullPartName "Cap NP.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (resistor
+      (FullPartName "resistor.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (+5V
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\2019-09-03.dsn")
+      (Path "Design Resources" ".\2019-09-03.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\2019-09-03.dsn" "SCHEMATIC1" "PAGE4"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 391"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1285 182 612")
+        (Scroll "-112 0")
+        (Zoom "72")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE\14.CAPTURE10\2019-09-03.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1311 208 638")
+        (Scroll "-69 0")
+        (Zoom "72")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE\14.CAPTURE10\2019-09-03.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1103 0 430")
+        (Scroll "-28 0")
+        (Zoom "76")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE\14.CAPTURE10\2019-09-03.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1526 130 560")
+        (Scroll "-122 0")
+        (Zoom "84")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE\14.CAPTURE10\2019-09-03.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE4")))
+  (MPSSessionName "user"))

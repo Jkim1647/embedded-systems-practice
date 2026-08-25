@@ -1,0 +1,37 @@
+(ExpressProject "2019-09-03-2"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\2019-09-03-2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\2019-09-03-2.dsn")
+      (Path "Design Resources" ".\2019-09-03-2.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\2019-09-03-2.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 391"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1259 156 586")
+        (Scroll "-55 0")
+        (Zoom "72")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE\15. CAPTURE11\2019-09-03-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "user"))

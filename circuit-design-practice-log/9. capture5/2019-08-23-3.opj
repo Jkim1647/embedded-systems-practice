@@ -1,0 +1,47 @@
+(ExpressProject "2019-08-23-3"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\users\user\desktop\library\capture\library2.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\2019-08-23-3.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("Cap TEXT"
+      (FullPartName "Cap TEXT.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\2019-08-23-3.dsn")
+      (Path "Design Resources" ".\2019-08-23-3.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\2019-08-23-3.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\user\desktop\library\capture\library2.olb")
+      (Select "Design Resources" "Library"
+         "c:\users\user\desktop\library\capture\library2.olb" "Cap TEXT"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 382"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1156 52 473")
+        (Scroll "2535 300")
+        (Zoom "254")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE\9. CAPTURE5\2019-08-23-3.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "user"))

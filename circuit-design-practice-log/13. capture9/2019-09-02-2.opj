@@ -1,0 +1,148 @@
+(ExpressProject "2019-09-02-2"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\2019-09-02-2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (SW1
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (AD0
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (CLK
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (+5V
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    ("Cap TEXT"
+      (FullPartName "Cap TEXT.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (resistor
+      (FullPartName "resistor.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    ("Cap NP"
+      (FullPartName "Cap NP.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    ("Cap POL"
+      (FullPartName "Cap POL.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (VR2
+      (FullPartName "VR2.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (VR1
+      (FullPartName "VR1.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (VR-LED
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (4071
+      (FullPartName "4071.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (4027
+      (FullPartName "4027.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (4585
+      (FullPartName "4585.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (4518
+      (FullPartName "4518.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "1"))
+    (4069
+      (FullPartName "4069.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "3"))
+    (40147
+      (FullPartName "40147.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (LM339
+      (FullPartName "LM339.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "3"))
+    (NE555
+      (FullPartName "NE555.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\지급 라이브러리(ORCAD-수정본)\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\2019-09-02-2.dsn")
+      (Path "Design Resources" ".\2019-09-02-2.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\2019-09-02-2.dsn" "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 391"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1448 52 482")
+        (Scroll "-257 0")
+        (Zoom "51")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE\13. CAPTURE9\2019-09-02-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1474 78 508")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE\13. CAPTURE9\2019-09-02-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
+  (MPSSessionName "user")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\user\Desktop\지급 라이브러리(ORCAD-수정본)\CAPTURE"))

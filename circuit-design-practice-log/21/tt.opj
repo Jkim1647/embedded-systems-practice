@@ -1,0 +1,84 @@
+(ExpressProject "tt"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\users\user\desktop\library\capture\library2.olb"
+        (Type "Schematic Library"))
+      (File "c:\users\user\desktop\orcad\library\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\tt.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (4051
+      (FullPartName "4051.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\ORCAD\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\ORCAD\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON14
+      (FullPartName "CON14.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\ORCAD\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("Cap TEXT"
+      (FullPartName "Cap TEXT.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\ORCAD\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\ORCAD\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (4071
+      (FullPartName "4071.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\ORCAD\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (4001
+      (FullPartName "4001.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\ORCAD\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "1"))
+    (4017
+      (FullPartName "4017.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\ORCAD\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (VR
+      (FullPartName "VR.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\ORCAD\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (VR1
+      (FullPartName "VR1.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (NE555
+      (FullPartName "NE555.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\LIBRARY\CAPTURE\LIBRARY2.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\USERS\USER\DESKTOP\CAPTURE\21\tt.dsn")
+      (Path "Design Resources" "C:\USERS\USER\DESKTOP\CAPTURE\21\tt.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 402"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1604 208 649")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\CAPTURE\21\TT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
