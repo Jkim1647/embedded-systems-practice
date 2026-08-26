@@ -39,7 +39,7 @@
 | 과제 | 과제명 | 내용 | 이 저장소의 결과물 |
 |---|---|---|---|
 | 1과제 | 하드웨어설계 | 로직회로(Design A/B) 설계·시뮬레이션 + 시간 반복 카운터 PCB를 직접 배치·배선 | ✅ [`task1-hardware-design`](./2019-regional-competition/task1-hardware-design) (Gerber+렌더) |
-| 2과제 | 고장수리 및 측정 | 조도 경보기 PCB의 5개 고장점을 찾아 수리, 오실로스코프로 측정·제출 | 📄 [문서화](./2019-regional-competition) (기판은 운영측 제작) |
+| 2과제 | 고장수리 및 측정 | 조도 경보기 PCB의 5개 고장점을 찾아 수리, 오실로스코프로 측정·제출 | 📄🖼️ [문서화+실제 답안지 사진](./2019-regional-competition) (기판은 운영측 제작) |
 | 3과제 | 프로그램설계 (계산기) | 주어진 예제 프로그램을 참조·수정해 사칙연산 계산기 완성 | 📄 [문서화](./2019-regional-competition) (남은 소스는 예제뿐) |
 | 4과제 | 어셈블러 | Main+Display+Front PCB 결합, 만능기판 가공·조립 | 📄 [문서화](./2019-regional-competition) (설계 파일 없는 조립) |
 
@@ -47,12 +47,12 @@
 
 | 과제 | 과제명 | 내용 | 이 저장소의 결과물 |
 |---|---|---|---|
-| 1과제 | 하드웨어 설계 (납 연기 제거기) | 로직회로(Design A/B/C) 설계 + PCB 배치·배선(CAD, 2시간30분) + 조립 | ✅ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+렌더) |
+| 1과제 | 하드웨어 설계 (납 연기 제거기) | 로직회로(Design A/B/C) 설계 + PCB 배치·배선(CAD, 2시간30분) + 조립 | ✅🖼️ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+렌더+FRONT 배선 사진) |
 | 2과제 | 고장수리 및 측정 | 3bit Digital Phase Shifter PCB의 고장점을 수리, 오실로스코프로 측정 | 📄 [문서화](./2019-national-competition) (기판은 운영측 제작) |
 | 3과제 | Embedded system Programming | 2대 엘리베이터 제어 시스템 C 코드 작성 (UART, 센서, LCD/OLED 표시) | ✅ [`elevator-control-system`](./elevator-control-system) (소스 코드) |
 | 4과제 | 어셈블리 (음료수 자판기) | Main+Display+Front PCB+판넬 결합 조립 | 📄 [문서화](./2019-national-competition) (설계 파일 없는 조립) |
 
-✅ = 이 저장소에 실제 설계/코드 파일이 있음, 📄 = 파일은 없지만 요구사항·구성·직접 수행한 작업을 README에 상세히 정리함 (원본 문제/정답/채점기준표 등 저작권 있는 공식 문서는 포함하지 않음).
+✅ = 이 저장소에 실제 설계/코드 파일이 있음, 📄 = 파일은 없지만 요구사항·구성·직접 수행한 작업을 README에 상세히 정리함, 🖼️ = 실제 촬영한 사진이 있음 (원본 문제/정답/채점기준표 등 저작권 있는 공식 문서는 포함하지 않음).
 
 ## 프로젝트 구성
 
@@ -68,6 +68,9 @@
 **회로설계 연습**
 - [`circuit-design-practice-log`](./circuit-design-practice-log) — 2019.08.15~10.04, 약 7주간 매일 진행한 OrCAD 회로설계/PCB 레이아웃 연습 기록 (39개 세션)
 - [`circuit-design-problem-set`](./circuit-design-problem-set) — 회로설계(1과제) 연습 문제·정답 7종
+
+**실습/현장 사진**
+- [`photos`](./photos) — 답안지, 배선 작업, 오실로스코프 측정 화면 등 실제 촬영 사진
 
 모두 기능경기대회 준비 과정에서 작성한 실습/연습 자료이며, 상용 제품이 아닙니다. 대회 공식 문제지·정답지·채점기준표 등 저작권이 있는 원문 자료는 포함하지 않았고, 문제 내용은 이해를 돕기 위해 요약해 설명했습니다.
 
@@ -114,7 +117,7 @@ None of the three competitions' official problem/answer/rubric documents are inc
 | Task | Name | What it involved | In this repo |
 |---|---|---|---|
 | 1 | Hardware Design | Design/simulate logic circuits (Design A/B), lay out a repeating-counter PCB myself | ✅ [`task1-hardware-design`](./2019-regional-competition/task1-hardware-design) (Gerber+renders) |
-| 2 | Fault-Finding & Measurement | Find and repair 5 faults on a light-alarm PCB, measure and submit via oscilloscope | 📄 [documented](./2019-regional-competition) (organizer-fabricated board) |
+| 2 | Fault-Finding & Measurement | Find and repair 5 faults on a light-alarm PCB, measure and submit via oscilloscope | 📄🖼️ [documented + real answer-sheet photos](./2019-regional-competition) (organizer-fabricated board) |
 | 3 | Program Design (calculator) | Reference/modify a given example program into a working 4-function calculator | 📄 [documented](./2019-regional-competition) (only the given example survives) |
 | 4 | Assembler (Assembly) | Combine Main+Display+Front PCBs, machine and assemble prototype board | 📄 [documented](./2019-regional-competition) (mechanical assembly) |
 
@@ -122,12 +125,12 @@ None of the three competitions' official problem/answer/rubric documents are inc
 
 | Task | Name | What it involved | In this repo |
 |---|---|---|---|
-| 1 | Hardware Design ("lead smoke remover") | Design/simulate logic circuits (Design A/B/C) + lay out the PCB myself in CAD (2.5h) + assemble | ✅ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+renders) |
+| 1 | Hardware Design ("lead smoke remover") | Design/simulate logic circuits (Design A/B/C) + lay out the PCB myself in CAD (2.5h) + assemble | ✅🖼️ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+renders+FRONT wiring photo) |
 | 2 | Fault-Finding & Measurement | Repair faults on a "3-bit Digital Phase Shifter" PCB, measure with an oscilloscope | 📄 [documented](./2019-national-competition) (organizer-fabricated board) |
 | 3 | Embedded System Programming | Write the C control program for a dual-elevator system (UART, sensors, LCD/OLED) | ✅ [`elevator-control-system`](./elevator-control-system) (source code) |
 | 4 | Assembly (vending machine) | Combine Main+Display+Front PCBs and a panel into a finished unit | 📄 [documented](./2019-national-competition) (mechanical assembly) |
 
-✅ = actual design/code files are in this repo, 📄 = no files, but requirements/scope/what I actually did are written up in the README (copyrighted originals — problem sheets, answer keys, rubrics — are never included).
+✅ = actual design/code files are in this repo, 📄 = no files, but requirements/scope/what I actually did are written up in the README, 🖼️ = real photos exist (copyrighted originals — problem sheets, answer keys, rubrics — are never included).
 
 ## What's here
 
@@ -143,5 +146,8 @@ None of the three competitions' official problem/answer/rubric documents are inc
 **Circuit design practice**
 - [`circuit-design-practice-log`](./circuit-design-practice-log) — Daily OrCAD circuit/PCB layout practice, 2019-08-15 to 2019-10-04 (39 sessions)
 - [`circuit-design-problem-set`](./circuit-design-problem-set) — 7 self-assembled circuit design practice problems with solutions
+
+**Practice / on-site photos**
+- [`photos`](./photos) — real photos: answer sheets, wiring work, oscilloscope measurements, etc.
 
 Everything here is practice/training material from competition prep, not a commercial product. Official copyrighted competition documents (problem sheets, answer keys, scoring rubrics) are not included — task descriptions are paraphrased for context.

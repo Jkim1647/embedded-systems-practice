@@ -36,6 +36,12 @@
 
 지급된 완제 PCB(운영측 제작)는 조도 경보기 회로입니다 — 버튼으로 경보 값을 설정하면(FND 3자리 표시), CDS 센서가 감지한 밝기가 설정값보다 커질 때 부저가 울립니다. 이 보드의 배선 5곳에 고의로 결함이 있어 이를 찾아 수리하고, 수리 전후 파형을 오실로스코프로 측정해 워드 답안지에 정리해 제출하는 과제입니다. IC는 소켓 없이 직접 PCB에 납땜해야 하는 등 세부 규정이 있습니다. 보드 자체는 조직위 제작물이라 설계 파일은 없지만, 결함 진단·수리·측정은 직접 수행했습니다.
 
+이 과제에는 학과이론(회로 이론 문제) 답안지도 있는데, 직접 작성한 실물 답안지 사진이 남아있습니다.
+
+<img src="../photos/2019-regional-task2-theory-answer-1.jpg" width="400"> <img src="../photos/2019-regional-task2-theory-answer-2.jpg" width="400">
+
+*문서 하단 "공업전자기기-제2과제-18-16/18" 표기로 2019년도 지방대회 자료임을 확인했습니다. 비번호 칸에 실명(김진영)이 적혀 있어 실제 제출용이 아닌 개인 보관용 사본으로 보입니다.*
+
 ## 3과제 — 프로그램설계 (계산기, 3시간)
 
 숫자 입력, 지우기, 초기화와 사칙연산(+, −, ×, ÷, %) 및 소수점 계산이 가능한 계산기를 완성하는 과제입니다. 주어진 예제 프로그램을 참조하거나 수정해서 완성하도록 되어 있어, 이 아카이브에 남은 `Calculator.c`류 소스는 그 예제 프로그램이고 제가 직접 수정한 최종본은 별도로 보존되어 있지 않습니다. 지급된 완제 PCB에 조립·프로그래밍하는 과제라 설계 파일도 없습니다.
@@ -73,6 +79,12 @@ Only the Gerber fabrication data survives from this session — the original CAD
 ## Task 2 — Fault-Finding & Measurement (light alarm, 2 hours)
 
 The supplied pre-fabricated PCB (organizer-made) is a light-alarm circuit: buttons set a threshold (shown on a 3-digit display), and a buzzer sounds once a CDS light sensor reads brighter than that threshold. This board has 5 deliberately-planted wiring faults to find and repair, with before/after waveforms captured on an oscilloscope and written up in a submitted document. ICs must be soldered directly to the board (no sockets), among other rules. The board itself isn't my design, but the fault diagnosis, repair, and measurement were.
+
+This task also has a written theory component, and my actual answer sheets survive as photos:
+
+<img src="../photos/2019-regional-task2-theory-answer-1.jpg" width="400"> <img src="../photos/2019-regional-task2-theory-answer-2.jpg" width="400">
+
+*The footer "공업전자기기-제2과제-18-16/18" confirms this is 2019 regional material. My real name is written in the 비번호 (contestant number) field, so this is a personal copy rather than the anonymized official submission.*
 
 ## Task 3 — Program Design (calculator, 3 hours)
 
