@@ -5,7 +5,7 @@
 | 사진 | 설명 |
 |---|---|
 | [`2019-regional-task2-theory-answer-1.jpg`](./2019-regional-task2-theory-answer-1.jpg) / [`-2.jpg`](./2019-regional-task2-theory-answer-2.jpg) | 2019년 지방기능경기대회 2과제(고장수리 및 측정) 학과이론 답안지 — 실제로 제출한 손글씨 풀이입니다. 문서 하단 "공업전자기기-제2과제-18-16/18"로 2019년도 지방대회 자료임을 확인했습니다. |
-| [`national-task1-front-panel-wiring.jpg`](./national-task1-front-panel-wiring.jpg) | 54회 전국기능경기대회 1과제("납 연기 제거기") FRONT 패널 배선 작업 사진 — 지급재료 목록의 LED 스위치(전원/1단/2단/3단) 구성과 일치합니다. |
+| [`national-task4-vending-machine-panel-wiring.jpg`](./national-task4-vending-machine-panel-wiring.jpg) | 54회 전국기능경기대회 4과제(어셈블리, 음료수 자판기) 판넬 배선 작업 사진. |
 | [`written-exam-hall.jpg`](./written-exam-hall.jpg) | 대회 학과시험(필기)장 전경. |
 | [`oscilloscope-measurement-1~3.jpg`](./oscilloscope-measurement-1.jpg) | 고장수리·측정 과제 실습 중 오실로스코프로 캡처한 실제 파형 화면입니다. 정확히 어느 대회의 캡처인지까지는 재확인하지 못해 일반 실습 사진으로 분류했습니다. |
 | [`pcb-layout-cad-screen.jpg`](./pcb-layout-cad-screen.jpg) | PCB 레이아웃 CAD 툴로 부품 배치·배선 작업 중인 화면. |

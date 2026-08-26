@@ -47,10 +47,10 @@
 
 | 과제 | 과제명 | 내용 | 이 저장소의 결과물 |
 |---|---|---|---|
-| 1과제 | 하드웨어 설계 (납 연기 제거기) | 로직회로(Design A/B/C) 설계 + PCB 배치·배선(CAD, 2시간30분) + 조립 | ✅🖼️ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+렌더+FRONT 배선 사진) |
+| 1과제 | 하드웨어 설계 (납 연기 제거기) | 로직회로(Design A/B/C) 설계 + PCB 배치·배선(CAD, 2시간30분) + 조립 | ✅ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+렌더) |
 | 2과제 | 고장수리 및 측정 | 3bit Digital Phase Shifter PCB의 고장점을 수리, 오실로스코프로 측정 | 📄 [문서화](./2019-national-competition) (기판은 운영측 제작) |
 | 3과제 | Embedded system Programming | 2대 엘리베이터 제어 시스템 C 코드 작성 (UART, 센서, LCD/OLED 표시) | ✅ [`elevator-control-system`](./elevator-control-system) (소스 코드) |
-| 4과제 | 어셈블리 (음료수 자판기) | Main+Display+Front PCB+판넬 결합 조립 | 📄 [문서화](./2019-national-competition) (설계 파일 없는 조립) |
+| 4과제 | 어셈블리 (음료수 자판기) | Main+Display+Front PCB+판넬 결합 조립 | 📄🖼️ [문서화+실제 배선 사진](./2019-national-competition) (설계 파일 없는 조립) |
 
 ✅ = 이 저장소에 실제 설계/코드 파일이 있음, 📄 = 파일은 없지만 요구사항·구성·직접 수행한 작업을 README에 상세히 정리함, 🖼️ = 실제 촬영한 사진이 있음 (원본 문제/정답/채점기준표 등 저작권 있는 공식 문서는 포함하지 않음).
 
@@ -125,10 +125,10 @@ None of the three competitions' official problem/answer/rubric documents are inc
 
 | Task | Name | What it involved | In this repo |
 |---|---|---|---|
-| 1 | Hardware Design ("lead smoke remover") | Design/simulate logic circuits (Design A/B/C) + lay out the PCB myself in CAD (2.5h) + assemble | ✅🖼️ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+renders+FRONT wiring photo) |
+| 1 | Hardware Design ("lead smoke remover") | Design/simulate logic circuits (Design A/B/C) + lay out the PCB myself in CAD (2.5h) + assemble | ✅ [`task1-lead-smoke-remover`](./2019-national-competition/task1-lead-smoke-remover) (Gerber+renders) |
 | 2 | Fault-Finding & Measurement | Repair faults on a "3-bit Digital Phase Shifter" PCB, measure with an oscilloscope | 📄 [documented](./2019-national-competition) (organizer-fabricated board) |
 | 3 | Embedded System Programming | Write the C control program for a dual-elevator system (UART, sensors, LCD/OLED) | ✅ [`elevator-control-system`](./elevator-control-system) (source code) |
-| 4 | Assembly (vending machine) | Combine Main+Display+Front PCBs and a panel into a finished unit | 📄 [documented](./2019-national-competition) (mechanical assembly) |
+| 4 | Assembly (vending machine) | Combine Main+Display+Front PCBs and a panel into a finished unit | 📄🖼️ [documented + real wiring photo](./2019-national-competition) (mechanical assembly) |
 
 ✅ = actual design/code files are in this repo, 📄 = no files, but requirements/scope/what I actually did are written up in the README, 🖼️ = real photos exist (copyrighted originals — problem sheets, answer keys, rubrics — are never included).
 
