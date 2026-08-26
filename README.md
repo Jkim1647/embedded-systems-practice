@@ -56,6 +56,16 @@
 
 ![마이스터넷 입상자 조회 결과](./verification-meister-net.png)
 
+마이스터넷에서 발급받은 공식 "기능경기대회 입상확인서"(문서확인번호로 진위 확인 가능, 생년월일은 가림 처리)도 함께 첨부합니다.
+
+<table>
+<tr>
+<td width="33%"><a href="./2018-regional-award-confirmation.jpg"><img src="./2018-regional-award-confirmation.jpg" width="100%"></a><br><sub>2018 서울지방 우수상</sub></td>
+<td width="33%"><a href="./2019-regional-award-confirmation.jpg"><img src="./2019-regional-award-confirmation.jpg" width="100%"></a><br><sub>2019 서울지방 금상</sub></td>
+<td width="33%"><a href="./2019-national-award-confirmation.jpg"><img src="./2019-national-award-confirmation.jpg" width="100%"></a><br><sub>2019 전국 장려상</sub></td>
+</tr>
+</table>
+
 <details>
 <summary><b>대회 배경: 공업전자기기 종목이란 (펼쳐보기)</b></summary>
 
@@ -149,6 +159,16 @@ Embedded C code and circuit/PCB design work from my time on the Industrial Elect
 These results are independently searchable on [Meister Net](https://meister.hrdkorea.or.kr/sub/3/6/7/skillMatchTournament/prizeWinnerList.do), the official competition-records lookup run by HRD Korea (a public agency under Korea's Ministry of Employment and Labor). Search Trade "공업전자기기 (Industrial Electronics)", Region "서울 (Seoul)", Name "김진영 (Jinyoung Kim)" to see:
 
 ![Meister Net prize-winner search result](./verification-meister-net.png)
+
+Also attached: the official "Skills Competition Award Confirmation" letters issued through Meister Net (each verifiable online via its document ID; birthdate redacted).
+
+<table>
+<tr>
+<td width="33%"><a href="./2018-regional-award-confirmation.jpg"><img src="./2018-regional-award-confirmation.jpg" width="100%"></a><br><sub>2018 Seoul Regional, Excellence Award</sub></td>
+<td width="33%"><a href="./2019-regional-award-confirmation.jpg"><img src="./2019-regional-award-confirmation.jpg" width="100%"></a><br><sub>2019 Seoul Regional, Gold Award</sub></td>
+<td width="33%"><a href="./2019-national-award-confirmation.jpg"><img src="./2019-national-award-confirmation.jpg" width="100%"></a><br><sub>2019 National, Merit Award</sub></td>
+</tr>
+</table>
 
 <details>
 <summary><b>Background: the Industrial Electronics trade (click to expand)</b></summary>
